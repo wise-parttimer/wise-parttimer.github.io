@@ -12,11 +12,9 @@ a, a:visited, a:hover {
 #header { min-width : 1300px; height: 400px; background-color: #D4CBB0; box-shadow: 0 0 20px;}
 #header img { height: 400px; margin: 0 auto; display: block; }
 
-#menu { min-width: 1300px; height: 70px; background-color: #333333; display: flex; }
-#menu div {width: 150px; height: 70px;}
-#menu a:nth-child(1) div { background-color: tomato; }
-#menu a:nth-child(2) div { background-color: lightgreen;}
-#menu a:nth-child(3) div { background-color: skyblue;}
+#menu { min-width: 1300px; height: 92px; background-color: #333333; display: flex; }
+#menu div {width: 150px; height: 92px;}
+#menu div img {width: 150px;}
 
 #title {width: 1300px; margin: 0 auto;}
 #title img {width: 1300px; margin: 0 auto;}
