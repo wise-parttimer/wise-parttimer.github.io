@@ -20,9 +20,9 @@ a, a:visited, a:hover {
 #title img {width: 1400px; margin: 0 auto;}
 
 #history {width : 1400px; display: flex; justify-content: space-between; margin: 0 auto;}
-#history div:nth-child(1){width: 49%;}
-#history div:nth-child(2){width: 2%;}
-#history div:nth-child(3){width: 49%;}
+#history div:nth-child(1){width: 699px;}
+#history div:nth-child(2){width: 2px;}
+#history div:nth-child(3){width: 699px;}
 
 #history #mid_line #line {width: 2px; height: 100%; background-color: #333; margin: 50px auto; }
 
