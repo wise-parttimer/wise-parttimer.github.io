@@ -5,3 +5,9 @@ html {
 a, a:visited, a:hover {
     text-decoration: none;
 }
+
+#header {
+    width : 100%
+}
+
+#header img { height: 400px;}
