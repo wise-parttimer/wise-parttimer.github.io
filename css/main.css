@@ -31,7 +31,7 @@ a, a:visited, a:hover {
 #history #right_h img { width: 600px;}
 
 #history #left_h{margin-top: 50px;}
-#history #left_h div { width: 600px; height: 800px; margin: 0 auto; padding-right: 80px; border-top: 1px solid #222;}
+#history #left_h .h_img { width: 600px; height: 800px; margin: 0 auto; padding-right: 80px; border-top: 1px solid #222;}
 #history #left_h img { width: 600px;}
 
 #history #blank { height: 400px; border: 0px;}
