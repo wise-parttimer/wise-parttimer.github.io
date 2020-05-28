@@ -8,10 +8,10 @@ a, a:visited, a:hover {
     text-decoration: none;
 }
 
-#header { width : 100%; height: 400px; background-color: #D4CBB0; box-shadow: 0 0 20px;}
+#header { min-width : 1300px; height: 400px; background-color: #D4CBB0; box-shadow: 0 0 20px;}
 #header img { height: 400px; margin: 0 auto; display: block; }
 
-#menu { width: 100%; height: 70px; background-color: #333333; display: flex; }
+#menu { min-width: 1300px; height: 70px; background-color: #333333; display: flex; }
 #menu div {width: 150px;}
 #menu div:nth-child(1) { background-color: tomato; }
 #menu div:nth-child(2) { background-color: lightgreen;}
