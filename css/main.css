@@ -24,7 +24,7 @@ a, a:visited, a:hover {
 #history div:nth-child(2){width: 2%;}
 #history div:nth-child(3){width: 49%;}
 
-#history #mid_line #line {width: 2px; height: 100%; background-color: #333; margin: 0 auto;}
+#history #mid_line #line {width: 2px; height: 100%; background-color: #333; margin: 50px auto; }
 
 #history #right_h{margin-top: 50px;}
 #history #right_h div { width: 600px; height: 337.5px; margin: 0 auto;}
