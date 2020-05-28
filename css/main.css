@@ -13,9 +13,9 @@ a, a:visited, a:hover {
 
 #menu { min-width: 1300px; height: 70px; background-color: #333333; display: flex; }
 #menu div {width: 150px;}
-#menu div:nth-child(1) { background-color: tomato; }
-#menu div:nth-child(2) { background-color: lightgreen;}
-#menu div:nth-child(3) { background-color: skyblue;}
+#menu a:nth-child(1) div { background-color: tomato; }
+#menu a:nth-child(2) div { background-color: lightgreen;}
+#menu a:nth-child(3) div { background-color: skyblue;}
 
 #history {width : 1300px; display: flex; justify-content: space-between; margin: 0 auto;}
 #history div:nth-child(1){width: 49%;}
