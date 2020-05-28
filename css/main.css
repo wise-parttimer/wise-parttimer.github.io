@@ -6,6 +6,7 @@ body {margin: 0; padding: 0;}
 
 a, a:visited, a:hover {
     text-decoration: none;
+    
 }
 
 #header { min-width : 1300px; height: 400px; background-color: #D4CBB0; box-shadow: 0 0 20px;}
@@ -16,6 +17,9 @@ a, a:visited, a:hover {
 #menu a:nth-child(1) div { background-color: tomato; }
 #menu a:nth-child(2) div { background-color: lightgreen;}
 #menu a:nth-child(3) div { background-color: skyblue;}
+
+#title {width: 1300px; margin: 0 auto;}
+#title img {width: 1300px; margin: 0 auto;}
 
 #history {width : 1300px; display: flex; justify-content: space-between; margin: 0 auto;}
 #history div:nth-child(1){width: 49%;}
