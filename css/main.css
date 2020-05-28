@@ -12,7 +12,7 @@ a, a:visited, a:hover {
 #header img { height: 400px; margin: 0 auto; display: block; }
 
 #menu { min-width: 1300px; height: 70px; background-color: #333333; display: flex; }
-#menu div {width: 150px;}
+#menu div {width: 150px; height: 70px;}
 #menu a:nth-child(1) div { background-color: tomato; }
 #menu a:nth-child(2) div { background-color: lightgreen;}
 #menu a:nth-child(3) div { background-color: skyblue;}
