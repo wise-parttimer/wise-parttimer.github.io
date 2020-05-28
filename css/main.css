@@ -8,10 +8,9 @@ a, a:visited, a:hover {
     text-decoration: none;
 }
 
-#header {
-    width : 100%;
-    height: 400px;
-    background-color: #D4CBB0;
-}
+#header { width : 100%; height: 400px; background-color: #D4CBB0; }
+#header img { height: 400px; margin: 0 auto; }
 
-#header img { height: 400px;}
+#menu { width: 100%; height: 100px; background-color: #333333; display: flex;}
+#menu div:nth-child(1) { background-color: tomato;}
+#menu div:nth-child(2) { background-color: skyblue;}
