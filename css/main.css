@@ -26,12 +26,14 @@ a, a:visited, a:hover {
 
 #history #mid_line #line {width: 2px; height: 100%; background-color: #333; margin: 50px auto; }
 
+#history #blank { height: 400px;}
+
 #history #right_h{margin-top: 50px;}
-#history #right_h div { width: 600px; height: 406.5px; margin: 0 auto;}
+#history #right_h div { width: 600px; height: 800px; margin: 0 auto; padding-left: 80px; border-top: 1px solid #222;}
 #history #right_h img { width: 600px;}
 
 #history #left_h{margin-top: 50px;}
-#history #left_h div { width: 600px; height: 406.5px; margin: 0 auto;}
+#history #left_h div { width: 600px; height: 800px; margin: 0 auto; padding-left: 80px; border-top: 1px solid #222;}
 #history #left_h img { width: 600px;}
 
 #desc {width: 1250px; margin: 0 auto;}
