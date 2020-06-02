@@ -6,6 +6,17 @@
 </head>
 
 <body>
+    <script>
+        function quiz1(cmd){
+            var q_img = document.getElementsByName("quiz_img");
+            if(cmd=="event"){
+                q_img.src = "/img/quiz2.png" 
+            } else if (cmd == "start"){
+                alert("아직 준비중입니다. 6월 중순에 오픈 예정입니다.")
+            }
+        }
+    </script>
+
     <div id="menu_pack">
     <div id="menu">
         <a href="/index.html"><div><img src="/img/menu1.png"></div></a>
@@ -17,7 +28,12 @@
     
     <div style="height: 100px;"></div>
     
-    <div id="title"><img src="/img/quiz1.png" ></div>
+    <div id="quiz" ><img name="quiz_img" src="/img/quiz1.png" usemap="#quiz1"></div>
+
+    <map name="quiz1">
+        <area coords="132,407,388,496" shape="rect" onclick="quiz1('event')">
+        <area coords="1049,411,1271,497" shape="rect" onclick="quiz1('start')">
+    </map>
 
 </body>
 </html>
