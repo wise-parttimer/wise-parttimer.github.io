@@ -26,7 +26,7 @@ a, a:visited, a:hover {
 #history div:nth-child(2){width: 2px;}
 #history div:nth-child(3){width: 699px;}
 
-#history #mid_line #line {width: 2px; height: 100%; background-color: #333; margin: 50px auto; }
+#history #mid_line #line {width: 2px; height: 100%; background: linear-gradient(#978DFF, #BD9BF1);     margin: 50px auto; }
 
 #history #right_h{margin-top: 50px;}
 #history #right_h .h_img { width: 600px; height: 800px; margin: 0 auto; padding-left: 99px; border-top: 1px solid #9FA9D8;}
