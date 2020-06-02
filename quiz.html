@@ -6,16 +6,13 @@
 </head>
 
 <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
         function quiz1(cmd){
             var q_img = document.getElementById("quiz_img");
             if(cmd=="event"){
-                console.log(q_img.src);
-                console.log(q_img.usemap);
-                q_img.src = "/img/quiz2.png";
-                q_img = document.getElementById("quiz_img");
-                q_img.usemap = "#event1";
-                console.log(q_img.usemap);
+                $('#quiz_img').attr("src", "/img/quiz2.png");
+                $('#quiz_img').attr("usemap", "#event1");
             } else if (cmd == "start"){
                 alert("아직 준비중입니다. 6월 중순에 오픈 예정입니다.")
             }
@@ -25,8 +22,8 @@
             var q_img = document.getElementById("quiz_img");
             if(cmd=="next"){
                 console.log(q_img.src);
-                q_img.src = "/img/quiz3.png";
-                q_img.usemap = "#event2";
+                $('#quiz_img').attr("src", "/img/quiz3.png");
+                $('#quiz_img').attr("usemap", "#event2");
             } else if (cmd == "start"){
                 alert("아직 준비중입니다. 6월 중순에 오픈 예정입니다.")
             }
