@@ -10,8 +10,20 @@
         function quiz1(cmd){
             var q_img = document.getElementById("quiz_img");
             if(cmd=="event"){
-                console.log(q_img.src)
-                q_img.src = "/img/quiz2.png" 
+                console.log(q_img.src);
+                q_img.src = "/img/quiz2.png";
+                q_img.usemap = "#event1";
+            } else if (cmd == "start"){
+                alert("아직 준비중입니다. 6월 중순에 오픈 예정입니다.")
+            }
+        }
+
+        function quiz_event(cmd){
+            var q_img = document.getElementById("quiz_img");
+            if(cmd=="next"){
+                console.log(q_img.src);
+                q_img.src = "/img/quiz3.png";
+                q_img.usemap = "#event2";
             } else if (cmd == "start"){
                 alert("아직 준비중입니다. 6월 중순에 오픈 예정입니다.")
             }
@@ -35,6 +47,9 @@
         <area coords="132,407,388,496" shape="rect" onclick="quiz1('event')">
         <area coords="1049,411,1271,497" shape="rect" onclick="quiz1('start')">
     </map>
+
+    <map name="event1"><area coords="1143,586,1361,680" shape="rect" onclick="quiz_event('next')"></map>
+    <map name="event2"><area coords="1143,586,1361,680" shape="rect" onclick="quiz_event('start')"></map>
 
 </body>
 </html>
