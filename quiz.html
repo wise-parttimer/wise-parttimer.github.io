@@ -10,6 +10,7 @@
         function quiz1(cmd){
             var q_img = document.getElementsByName("quiz_img");
             if(cmd=="event"){
+                console.log(q_img.src)
                 q_img.src = "/img/quiz2.png" 
             } else if (cmd == "start"){
                 alert("아직 준비중입니다. 6월 중순에 오픈 예정입니다.")
