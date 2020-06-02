@@ -12,8 +12,8 @@ a, a:visited, a:hover {
 #header { min-width : 1400px; height: 300px; background-color: #D4CBB0; box-shadow: 0 0 20px;}
 #header img { height: 300px; margin: 0 auto; display: block; }
 
-#menu { min-width: 1400px; height: 92px; background-color: #333333; display: flex; }
-#menu div {width: 150px; height: 92px;}
+#menu { min-width: 1400px; height: 26px; background-color: #333333; display: flex; }
+#menu div {width: 150px; height: 26px;}
 #menu a div img {width: 150px;}
 
 #title {width: 1400px; margin: 0 auto;}
