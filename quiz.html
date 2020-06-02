@@ -11,7 +11,9 @@
             var q_img = document.getElementById("quiz_img");
             if(cmd=="event"){
                 console.log(q_img.src);
+                console.log(q_img.usemap);
                 q_img.src = "/img/quiz2.png";
+                q_img = document.getElementById("quiz_img");
                 q_img.usemap = "#event1";
                 console.log(q_img.usemap);
             } else if (cmd == "start"){
