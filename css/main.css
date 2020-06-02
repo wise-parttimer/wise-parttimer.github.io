@@ -42,4 +42,4 @@ a, a:visited, a:hover {
 #desc img {width: 1400px; margin: 0 auto;}
 
 
-#quiz { min-width : 1400px; height: 300px; background-color: #BDADF1; box-shadow: 0 0 20px;}
+#quiz {width : 1400px; display: flex; justify-content: space-between; margin: 0 auto; height: auto;}
