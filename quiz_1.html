@@ -21,6 +21,7 @@
             if(idx == "end"){
                 // $('#quiz_img').css("display", "none");
                 $('#quiz_img').attr("src", "/img/quizs/quiz_end.png");
+                $('#quiz_img').attr("usemap", "quiz_end");
                 $('#end_form').css("display", "block");
                 return;
             }
@@ -48,17 +49,19 @@
     </div>
 
 
-    <map name="img1"><area coords=coords="1143,586,1361,680" shape="rect" onclick="img('1')"></map>
-    <map name="img4"><area coords=coords="1143,586,1361,680" shape="rect" onclick="img('4')"></map>
-    <map name="img7"><area coords=coords="1143,586,1361,680" shape="rect" onclick="img('7')"></map>
-    <map name="img10"><area coords=coords="1143,586,1361,680" shape="rect" onclick="img('10')"></map>
-    <map name="img13"><area coords=coords="1143,586,1361,680" shape="rect" onclick="img('13')"></map>
+    <map name="img1"><area coords="1143,586,1361,680" shape="rect" onclick="img('1')"></map>
+    <map name="img4"><area coords="1143,586,1361,680" shape="rect" onclick="img('4')"></map>
+    <map name="img7"><area coords="1143,586,1361,680" shape="rect" onclick="img('7')"></map>
+    <map name="img10"><area coords="1143,586,1361,680" shape="rect" onclick="img('10')"></map>
+    <map name="img13"><area coords="1143,586,1361,680" shape="rect" onclick="img('13')"></map>
 
-    <map name="ans1"><area coords=coords="1143,586,1361,680" shape="rect" onclick="ans('4')"></map>
-    <map name="ans4"><area coords=coords="1143,586,1361,680" shape="rect" onclick="ans('7')"></map>
-    <map name="ans7"><area coords=coords="1143,586,1361,680" shape="rect" onclick="ans('10')"></map>
-    <map name="ans10"><area coords=coords="1143,586,1361,680" shape="rect" onclick="ans('13')"></map>
-    <map name="ans13"><area coords=coords="1143,586,1361,680" shape="rect" onclick="ans('end')"></map>
+    <map name="ans1"><area coords="1143,586,1361,680" shape="rect" onclick="ans('4')"></map>
+    <map name="ans4"><area coords="1143,586,1361,680" shape="rect" onclick="ans('7')"></map>
+    <map name="ans7"><area coords="1143,586,1361,680" shape="rect" onclick="ans('10')"></map>
+    <map name="ans10"><area coords="1143,586,1361,680" shape="rect" onclick="ans('13')"></map>
+    <map name="ans13"><area coords="1143,586,1361,680" shape="rect" onclick="ans('end')"></map>
+
+    <map name="quiz_end"><area coords="976,550,1341,675"  shape="rect" href="https://forms.gle/nYKqi6fxejNoY56u7"></map>
 
 </body>
 </html>
