@@ -23,7 +23,7 @@
                 $('#end_form').css("display", "block");
             }
             var img_path = "/img/quizs/quiz_img_" + idx + ".png"
-            var img_map = "#ans"+idx
+            var img_map = "#img"+idx
             $('#quiz_img').attr("src", img_path);
             $('#quiz_img').attr("usemap", img_map);
         }
@@ -42,7 +42,7 @@
     
     <div id="quiz" >
         <img id="quiz_img" src="/img/quizs/quiz_img_1.png" usemap="#img1">
-        <embed id="end_form" style="display: none;">
+        <embed id="end_form" style="display: none;" width="1400" height="700">
     </div>
 
 
