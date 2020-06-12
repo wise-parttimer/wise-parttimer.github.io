@@ -8,24 +8,24 @@
 <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
-        function quiz1(cmd){
+        function img(idx){
             var q_img = document.getElementById("quiz_img");
-            $('#quiz_img').attr("src", "/img/quizs/quiz_intro2.png");
-            $('#quiz_img').attr("usemap", "#quiz2")
+            var ans_path = "/img/quizs/quiz_ans_" + idx + ".png"
+            var ans_map = "#ans"+idx
+            $('#quiz_img').attr("src", ans_path);
+            $('#quiz_img').attr("usemap", ans_map);
         }
 
-        function quiz_event(cmd){
+        function ans(idx){
             var q_img = document.getElementById("quiz_img");
-            if(cmd=="next"){
-                console.log(q_img.src);
-                $('#quiz_img').attr("src", "/img/quizs/quiz_intro3.png");
-                $('#quiz_img').attr("usemap", "#quiz3");
-            } else if (cmd == "start"){
-                var val = Math.ceil(Math.random()*100);
-                if(val < 101){
-                    location.href = "/quiz_1.html";
-                }
+            if(idx == "end"){
+                $('#quiz_img').css("display", "none");
+                $('#end_form').css("display", "block");
             }
+            var img_path = "/img/quizs/quiz_img_" + idx + ".png"
+            var img_map = "#ans"+idx
+            $('#quiz_img').attr("src", img_path);
+            $('#quiz_img').attr("usemap", img_map);
         }
     </script>
 
@@ -38,13 +38,25 @@
     </div>
     <div id="header"><img src = /img/team_logo.png></div>
     
-    <div style="height: 100px;">dsdjdfghsfdgdsfgsdfgsdf</div>
+    <div style="height: 100px;"></div>
     
-    <div id="quiz" ><img id="quiz_img" src="/img/quizs/quiz_intro1.png" usemap="#quiz1"></div>
+    <div id="quiz" >
+        <img id="quiz_img" src="/img/quizs/quiz_img_1.png" usemap="#img1">
+        <embed id="end_form" style="display: none;">
+    </div>
 
-    <map name="quiz1"><area coords=coords="511,392,885,503" shape="rect" onclick="quiz1('quiz2')"></map>
-    <map name="quiz2"><area coords="1143,586,1361,680" shape="rect" onclick="quiz_event('next')"></map>
-    <map name="quiz3"><area coords="1143,586,1361,680" shape="rect" onclick="quiz_event('start')"></map>
+
+    <map name="img1"><area coords=coords="1143,586,1361,680" shape="rect" onclick="img('1')"></map>
+    <map name="img4"><area coords=coords="1143,586,1361,680" shape="rect" onclick="img('4')"></map>
+    <map name="img7"><area coords=coords="1143,586,1361,680" shape="rect" onclick="img('7')"></map>
+    <map name="img10"><area coords=coords="1143,586,1361,680" shape="rect" onclick="img('10')"></map>
+    <map name="img13"><area coords=coords="1143,586,1361,680" shape="rect" onclick="img('13')"></map>
+
+    <map name="ans1"><area coords=coords="1143,586,1361,680" shape="rect" onclick="ans('4')"></map>
+    <map name="ans4"><area coords=coords="1143,586,1361,680" shape="rect" onclick="ans('7')"></map>
+    <map name="ans7"><area coords=coords="1143,586,1361,680" shape="rect" onclick="ans('10')"></map>
+    <map name="ans10"><area coords=coords="1143,586,1361,680" shape="rect" onclick="ans('13')"></map>
+    <map name="ans13"><area coords=coords="1143,586,1361,680" shape="rect" onclick="ans('end')"></map>
 
 </body>
 </html>
