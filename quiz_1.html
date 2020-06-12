@@ -19,8 +19,10 @@
         function ans(idx){
             var q_img = document.getElementById("quiz_img");
             if(idx == "end"){
-                $('#quiz_img').css("display", "none");
+                // $('#quiz_img').css("display", "none");
+                $('#quiz_img').attr("src", "/img/quizs/quiz_end.png");
                 $('#end_form').css("display", "block");
+                return;
             }
             var img_path = "/img/quizs/quiz_img_" + idx + ".png"
             var img_map = "#img"+idx
