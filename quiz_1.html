@@ -10,7 +10,7 @@
     <script>
         function quiz1(cmd){
             var q_img = document.getElementById("quiz_img");
-            $('#quiz_img').attr("src", "/img/quiz/quiz_intro2.png");
+            $('#quiz_img').attr("src", "/img/quizs/quiz_intro2.png");
             $('#quiz_img').attr("usemap", "#quiz2")
         }
 
@@ -18,7 +18,7 @@
             var q_img = document.getElementById("quiz_img");
             if(cmd=="next"){
                 console.log(q_img.src);
-                $('#quiz_img').attr("src", "/img/quiz/quiz_intro3.png");
+                $('#quiz_img').attr("src", "/img/quizs/quiz_intro3.png");
                 $('#quiz_img').attr("usemap", "#quiz3");
             } else if (cmd == "start"){
                 var val = Math.ceil(Math.random()*100);
